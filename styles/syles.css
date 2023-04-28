@@ -1,3 +1,7 @@
+main {
+    max-width: 840px;
+}
+
 main img {
     width: 150px;
     height: auto;
@@ -28,13 +32,13 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
-    margin: 25px ;
+    margin: 20px ;
     border: none;
-    padding: 25px ;
+    padding: 20px ;
     background-color: rgb(10, 25, 47, 0.9);
     color:rgb(245, 245, 245);
     text-align: center;
