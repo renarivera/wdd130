@@ -36,16 +36,17 @@ p {
 }
 
 aside {
-    margin: 20px ;
+    width: 20em;
+    margin: 1em ;
     border: none;
-    padding: 20px ;
+    padding: 1em ;
     background-color: rgb(10, 25, 47, 0.9);
     color:rgb(245, 245, 245);
     text-align: center;
 }
 
 aside img {
-    width: 200 px;
+    width: 200px;
     height: auto;
 }
 
