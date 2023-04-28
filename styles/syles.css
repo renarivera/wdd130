@@ -1,0 +1,28 @@
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+aside {
+    margin: 25px ;
+    border: none;
+    padding: 25px ;
+    background-color: rgb(10, 25, 47, 0.9);
+    color:rgb(245, 245, 245);
+    text-align: center;
+}
+
+aside img {
+    width: 200 px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
