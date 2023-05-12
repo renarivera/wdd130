@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Quicksand:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Quicksand'
 }
 
 .grid {
@@ -38,7 +41,7 @@ nav a {
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight:bolder;
+    font-weight:bold;
 }
 
 nav a:hover {
