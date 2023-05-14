@@ -64,7 +64,7 @@ nav a {
     color: var(--primary-color);
     padding: 20px;
     text-decoration: none;
-    font-size: 700;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
