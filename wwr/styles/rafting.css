@@ -170,3 +170,86 @@ footer nav a img {
     font-weight: 700;
     text-decoration: underline;
 }
+/*Contac us page*/
+
+main {
+    padding: 20px;
+}
+  
+#employees {
+    margin-bottom: 20px;
+}
+  
+.employee {
+
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-bottom: 10px;
+}
+  
+.employee img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+  
+#contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+  
+.column {
+    flex: 1 0 10%; /* First column only 10% */
+    padding: 10px;
+}
+  
+#map {
+    width: 100%;
+    height: 300px;  
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+#contact-form h2 {
+    margin-bottom: 10px;
+}
+  
+#contact-form input,
+#contact-form textarea,
+#contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+#contact-form select {
+    width: 104.5%;
+    height: 40px;
+}
+  
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+#contact-form button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+#contact-form button:hover {
+    background-color: var(--primary-color);
+}
+  

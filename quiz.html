@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail">
+          </fieldset>
+          <fieldset>
+            <legend>Experience Information</legend>
+            <label for="experience_q1">Do you have experience working with CSS?</label>
+            <input type="text" id="experience_q1" name="experience_q1" required>
+            
+            <label for="evaluation_q2">How are id and class attributes selected in CSS?</label>
+            <textarea id="evaluation_q2" name="evaluation_q2" required></textarea>
+            
+            <label for="comments_q3">Which of the following is a valid CSS comment?</label>
+            <select id="comments_q3" name="comments_q3" required>
+              <option value="" selected disabled>Choose One ...</option>
+              <option value="option1">/* Option 1 */</option>
+              <option value="option2"># Option 2</option>
+              <option value="option3">// Option 3</option>
+            </select>
+            
+            <label for="years_q4">Enter your years of experience::</label>
+            <input type="number" id="years_q4" name="years_q4" required>
+          </fieldset>
+          <button class="submit" type="submit">Submit Quiz</button>
+        </form>
+      </main>
+      
+    <footer>
+
+    </footer>
+</body>
+</html>
