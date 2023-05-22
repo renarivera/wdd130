@@ -64,8 +64,11 @@
             <h2>Send us your feedback</h2>
             <p>Send us a message and we'll respond within 24 hours.</p>
             <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <label for="email">Full name:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="purpose">Select message purpose</label>
             <select name="purpose" required>
                 <option value="">Select message purpose</option>
                 <option value="consultation">Consultation</option>
@@ -73,9 +76,10 @@
                 <option value="claim">Claim</option>
                 <option value="other">Other</option>
             </select>
-            <textarea placeholder="Message" required></textarea>
-            <label>
-                <input type="checkbox" name="newsletter"> Subscribe to the newsletter
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter"> Subscribe to the newsletter
             </label>
             </form>
             <button type="submit">Send Message</button>
