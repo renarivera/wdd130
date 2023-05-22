@@ -18,6 +18,10 @@ main {
     background-color: #222;
     color: #fff;
 }
+
+h1 {
+    margin: 20px 0;
+}
   
 form fieldset {
     border: none;
