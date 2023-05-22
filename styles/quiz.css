@@ -51,7 +51,7 @@ select option {
     color: #fff;
 }
   
-input[type="number"] {
+.number {
     width: 100px;
 }
   
