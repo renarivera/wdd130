@@ -253,3 +253,163 @@ main {
     background-color: var(--primary-color);
 }
   
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+}
+  
+.trip {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.trip img {
+    width: 55%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+ 
+.contact-button {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+  
+.contact-button:hover {
+    background-color: #ffac33;
+}
+
+  /* Estilos para el héroe */
+.hero-home {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+}
+  
+.hero-home h1 {
+    font-size: 36px;
+    color: #333;
+}
+  
+  /* Estilos para el boletín de suscripción */
+.newsletter {
+    background-color: #eee;
+    text-align: center;
+    padding: 30px 0;
+}
+  
+.newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+  
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  /* Estilos para el llamado a la acción */
+.call-to-action {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+  
+.call-to-action h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+  
+.call-to-action p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+  
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+  
+  /* Estilos para la cuadrícula */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+}
+  
+.grid-item {
+    text-align: center;
+}
+  
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+  
+.grid-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.grid-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+  /* Estilos adicionales */
+  /* Agrega estilos adicionales aquí según tus necesidades */
+  
